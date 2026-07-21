@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 · João Gabriel</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@500;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --papel:#161528; --linha:rgba(126,146,255,.08);
+  --tinta:#F2F0FF; --suave:#A9A6CB; --superficie:#201E38;
+  --amarelo:#FFD23F; --rosa:#FF6E9C; --azul:#5D8CFF; --menta:#2EE6C5;
+  --tinta-fixa:#23213A;
+}
+*{ margin:0; padding:0; box-sizing:border-box; }
+body{
+  font-family:'Instrument Sans', system-ui, sans-serif;
+  color:var(--tinta); background-color:var(--papel);
+  background-image:
+    linear-gradient(var(--linha) 1px, transparent 1px),
+    linear-gradient(90deg, var(--linha) 1px, transparent 1px);
+  background-size:28px 28px;
+  min-height:100vh; display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  text-align:center; padding:32px 20px; line-height:1.6;
+}
+:focus-visible{ outline:3px solid var(--azul); outline-offset:3px; border-radius:8px; }
+
+.etiqueta{
+  display:inline-block; font-size:.75rem; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase;
+  background:var(--superficie); border:2px solid var(--tinta); border-radius:999px;
+  padding:6px 14px; box-shadow:3px 3px 0 var(--rosa); margin-bottom:26px;
+}
+.nuvem{ margin-bottom:8px; animation:flutuar 4s ease-in-out infinite; }
+h1{
+  font-family:'Bricolage Grotesque', sans-serif; font-weight:800;
+  font-size:clamp(4.5rem, 18vw, 8.5rem); line-height:1; letter-spacing:-.03em;
+}
+h1 span{
+  background:linear-gradient(104deg, transparent 1%, var(--rosa) 4%, var(--rosa) 96%, transparent 99%);
+  color:var(--tinta-fixa); padding:0 .18em; border-radius:.1em;
+}
+h2{
+  font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
+  font-size:clamp(1.3rem, 4.5vw, 1.9rem); margin-top:18px;
+}
+p.texto{ color:var(--suave); max-width:44ch; margin:14px auto 30px; }
+.botao{
+  display:inline-block; text-decoration:none; color:var(--tinta);
+  font-weight:700; font-size:1rem;
+  background:var(--superficie); border:2px solid var(--tinta); border-radius:999px;
+  padding:13px 26px; box-shadow:4px 4px 0 var(--menta);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.botao:hover{ transform:translateY(-3px); box-shadow:5px 6px 0 var(--menta); }
+.nota{
+  font-family:'Caveat', cursive; font-size:1.3rem; font-weight:600;
+  color:var(--rosa); margin-top:22px;
+}
+footer{
+  margin-top:52px; font-family:'Caveat', cursive; font-size:1.2rem; color:var(--suave);
+}
+@keyframes flutuar{
+  0%,100%{ transform:translateY(0); }
+  50%{ transform:translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{ animation:none !important; transition:none !important; }
+}
+</style>
+</head>
+<body>
+
+<span class="etiqueta">#404 — página eliminada</span>
+
+<!-- nuvem de tempestade rabiscada -->
+<svg class="nuvem" width="150" height="110" viewBox="0 0 150 110" fill="none" aria-hidden="true">
+  <path d="M38 62 a20 20 0 0 1 6-39 a26 26 0 0 1 50-8 a22 22 0 0 1 28 21 a17 17 0 0 1-5 33 z"
+        fill="var(--superficie)" stroke="var(--tinta)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M78 66 L64 88 h12 L66 108 L94 82 h-13 l10-16 z"
+        fill="var(--amarelo)" stroke="var(--tinta-fixa)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M30 78 q6 6 0 12 M118 74 q-6 7 0 13"
+        stroke="var(--azul)" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
+<h1><span>404</span></h1>
+<h2>Essa página caiu fora da zona 🌪️</h2>
+
+<p class="texto">
+  A tempestade fechou e levou a página que você tava procurando.
+  Acontece com os melhores — respawna aí e tenta de novo.
+</p>
+
+<a class="botao" href="/">🏠 Voltar pro lobby</a>
+
+<p class="nota">dica: confere se o endereço foi digitado certinho ;)</p>
+
+<footer>"Às vezes você cai, mas sempre tem um próximo round." ✦ João Gabriel</footer>
+
+</body>
+</html>
