@@ -1,96 +1,181 @@
-<!-- Banner -->
 <div align="center">
 
-![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Meu%20Cantinho%20Pessoal&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38)
+# 🎮 João Gabriel — Portfólio Pessoal
 
-<h3>✨ Um espaço sobre mim, minha jornada e o que me move ✨</h3>
+**Meu cantinho na internet: quem eu sou, o que eu curto e pra onde eu tô indo.**
 
-<p>
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge&logo=github" alt="status"/>
-  <img src="https://img.shields.io/badge/lan%C3%A7amento-em%20breve-blue?style=for-the-badge&logo=rocket" alt="lançamento"/>
-  <img src="https://img.shields.io/github/last-commit/JAOG1V1/personal-website?style=for-the-badge&color=blueviolet" alt="último commit"/>
-</p>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/status-no%20ar-2EC4B6?style=for-the-badge)
+![Arquivo único](https://img.shields.io/badge/arquivo-%C3%BAnico-FF9F1C?style=for-the-badge)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Ol%C3%A1%2C+seja+bem-vindo(a)!+%F0%9F%91%8B;Meu+site+pessoal+est%C3%A1+chegando...;Fique+ligado(a)+nas+novidades+%F0%9F%9A%80" alt="Typing SVG" />
+### 🌐 Acesse o site publicado
+
+**🗒️ [jaog1v1.github.io](https://jaog1v1.github.io)**
+
+> *"Às vezes você cai, mas sempre tem um próximo round."*
 
 </div>
 
 ---
 
-## 👋 Olá!
+## 📋 Sumário
 
-Que bom ter você por aqui! Este repositório é o lar do meu **site pessoal** — um lugar que estou construindo com muito carinho para compartilhar quem eu sou, o que faço e o que me inspira.
-
-> *"Cada conquista começa com a decisão de tentar."*
+- [👤 Sobre o Projeto](#-sobre-o-projeto)
+- [🎨 Conceito de Design](#-conceito-de-design)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias Utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [🗺️ Próximos Passos](#%EF%B8%8F-próximos-passos)
+- [✍️ Autor](#%EF%B8%8F-autor)
+- [🤖 Transparência e Ferramentas](#-transparência-e-ferramentas)
+- [📜 Licença](#-licença)
 
 ---
 
-## 🚧 Em construção
+## 👤 Sobre o Projeto
 
-Estou trabalhando para que tudo fique especial antes do grande lançamento. Em breve, este espaço se transformará num site onde você poderá conhecer melhor a minha história. 💙
+Este é o meu **site pessoal**. Tenho 15 anos e ainda estou descobrindo o que quero ser — então, em vez de fingir que já escolhi uma área, fiz um site sobre isso mesmo: **um caderno aberto, em constante rascunho**.
 
-```diff
-+ 🔨 Site em desenvolvimento
-+ 🎨 Design sendo pensado nos detalhes
-+ 🚀 Lançamento chegando logo!
+O site registra quem eu sou *agora*: meus hobbies (basquete, games, música, mangás), o que estou aprendendo, os projetos que já fiz e os sonhos que estão "colados na parede do futuro".
+
+A ideia é que ele **cresça junto comigo**: cada curso concluído, medalha ou projeto novo vira uma atualização aqui.
+
+---
+
+## 🎨 Conceito de Design
+
+O visual simula um **caderno escolar cheio de adesivos**:
+
+| Elemento | Como aparece no site |
+|---|---|
+| 📓 Papel quadriculado | Fundo com grade desenhada em CSS puro |
+| 🏷️ Adesivos | Cards com borda grossa, sombra colorida e leve rotação |
+| 📸 Polaroid | Moldura de foto com fita adesiva no topo |
+| 🗒️ Post-its | Sonhos e metas em notinhas coloridas |
+| 🖊️ Anotações à mão | Fonte manuscrita (Caveat) nas legendas e setas |
+| 🖍️ Marca-texto | Destaques nos títulos, estilo caneta marcadora |
+
+**Dois temas completos**, alternáveis pelo botão ☀️/🌙 no topo:
+
+- 🌙 **Escuro (padrão)** — "caderno de papel preto com caneta gel"
+- ☀️ **Claro** — caderno tradicional de papel branco
+
+**Tipografias:** Bricolage Grotesque (títulos) · Instrument Sans (texto) · Caveat (manuscrita)
+
+---
+
+## ✨ Funcionalidades
+
+- 🔄 **Palavra giratória** no título — "gamer 🎮", "nerd assumido 🤓", "dev front-end em formação 💻"... porque eu sou um pouco de tudo
+- 🌙 **Tema claro/escuro** com transição suave e cores adaptadas
+- 🎬 **Animações ao rolar** a página (Intersection Observer)
+- 📦 **Arquivo único** — HTML, CSS, JS e até a imagem de perfil (em base64) num só `index.html`
+- 📱 **Design responsivo** — funciona do celular ao desktop
+- ♿ **Acessibilidade** — foco visível por teclado, `aria-label` nos controles e suporte a `prefers-reduced-motion` (as animações se desligam se o sistema preferir)
+- 🎮 **Favicon personalizado** em SVG
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Uso no projeto |
+|---|---|
+| **HTML5** | Estrutura semântica (`<header>`, `<section>`, `<nav>`, `<footer>`) |
+| **CSS3** | Variáveis customizadas (temas), Grid, Flexbox, animações, gradientes |
+| **JavaScript (ES6+)** | Troca de tema, palavra giratória, animações de scroll |
+| **SVG inline** | Rabiscos, setas, estrela e favicon desenhados em código |
+| **Google Fonts** | Bricolage Grotesque, Instrument Sans e Caveat |
+
+> ⚠️ **Sem frameworks** — só HTML, CSS e JavaScript puros.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+jaog1v1.github.io/
+├── 📄 index.html   # O site inteiro: HTML + CSS + JS + imagem, tudo num arquivo só
+└── 📖 README.md    # Este arquivo
 ```
 
----
-
-## ✨ O que você vai encontrar no site
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-### 👤 Sobre mim
-Quem eu sou, de onde vim e o que me move no dia a dia.
-
-### 🏆 Conquistas
-Marcos importantes e momentos especiais da minha trajetória.
-
-### 💡 O que eu gosto de fazer
-Meus hobbies, paixões e interesses que me fazem feliz.
-
-  </td>
-  <td width="50%" valign="top">
-
-### 🚀 Projetos
-Coisas que já construí e o que estou construindo agora.
-
-### 📚 Minha jornada
-Aprendizados, desafios, experiências e descobertas.
-
-### 🤝 Contato
-Vamos nos conectar? Aqui você encontra meus canais.
-
-  </td>
-  </tr>
-</table>
-
-E muito mais surpresas pelo caminho... 🎁
+Simples assim. 😄
 
 ---
 
-## 🗺️ Roadmap
+## 🚀 Como Executar
 
-- [x] 💡 Definir a ideia do site
-- [x] 📦 Criar o repositório
-- [ ] 🎨 Finalizar o design
-- [ ] 🛠️ Desenvolver as páginas
-- [ ] 🌐 Publicar o site
-- [ ] 🎉 Compartilhar com o mundo
+**Online (recomendado):** acesse **[jaog1v1.github.io](https://jaog1v1.github.io)**
+
+**Localmente:**
+
+```bash
+git clone https://github.com/JAOG1V1/jaog1v1.github.io.git
+```
+
+Depois é só abrir o `index.html` em qualquer navegador moderno. Sem instalação, sem build, sem servidor.
 
 ---
 
-## 📬 Quer acompanhar?
+## 🗺️ Próximos Passos
 
-Deixe uma ⭐ neste repositório para ser uma das primeiras pessoas a saber quando o site for ao ar!
+Como todo caderno aberto, sempre tem página em branco esperando:
+
+- [ ] Trocar o avatar por uma foto de verdade 📸
+- [ ] Adicionar novos certificados do Codifica Jovem conforme eu concluir os módulos
+- [ ] Criar uma seção de mangás favoritos 📖
+- [ ] Registrar os próximos projetos e concursos
+
+---
+
+## ✍️ Autor
+
+**João Gabriel Sabedra Vieira** — estudante, 15 anos, Douradina‑PR 🇧🇷
+
+Em jornada pra virar dev. Construindo, errando e aprendendo. 🚀
+
+| | |
+|---|---|
+| 💻 GitHub | [@JAOG1V1](https://github.com/JAOG1V1) |
+| 📷 Instagram | [@joaogabrielsv2010](https://www.instagram.com/joaogabrielsv2010) |
+| ✉️ E-mail | joaogabrielsabedra@gmail.com |
+| 🌱 Projeto em destaque | [Agro Forte — Agrinho 2026](https://github.com/JAOG1V1/agrinho-2026) |
+
+---
+
+## 🤖 Transparência e Ferramentas
+
+Acredito que a transparência faz parte de um desenvolvimento responsável — a mesma prática que adotei no [Agro Forte](https://github.com/JAOG1V1/agrinho-2026).
+
+Este site foi desenvolvido por mim com auxílio de uma ferramenta de Inteligência Artificial (**Claude**, da Anthropic) como apoio ao aprendizado e à implementação.
+
+**✍️ Da minha autoria:**
+- Todo o conteúdo pessoal (quem eu sou, hobbies, projetos, sonhos)
+- As decisões de estilo, tema e direção do site
+- As respostas e ideias que moldaram cada seção
+- A publicação e manutenção do projeto
+
+**🤝 Onde utilizei IA como apoio:**
+- Escrita e organização do código (HTML, CSS, JavaScript)
+- Sugestões de design, acessibilidade e boas práticas
+- Estruturação desta documentação
+
+**🛠️ Outras ferramentas:** GitHub Pages (hospedagem) e Git/GitHub (versionamento).
+
+---
+
+## 📜 Licença
+
+Projeto pessoal e educacional. O **código** é livre para estudo e inspiração. Os **textos e imagens pessoais** pertencem ao autor. 😉
+
+---
 
 <div align="center">
 
-### 💙 Obrigado(a) por passar por aqui. Volte em breve!
+🗒️ *"Às vezes você cai, mas sempre tem um próximo round."*
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer)
+**Rabiscado com carinho por João Gabriel ✦ Douradina‑PR ✦ 2026**
 
 </div>
